@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#container  {
+  background-color:darkturquoise;
+  margin: 5% 10% 5% 10%;
+  border: 2px solid black;
+  width: 80%;
+  height: 600px;
+  /* max-height:fit-content; */
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.userInput {
+  width: 60%;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.inputcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.showToDo {
+  background-color: white;
+  margin: 5% auto 5% auto;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 90%;
+  height: 55%;
+  overflow: auto;
+}
+
+ul {
+  height: 90% ;
+  width: inherit;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px 0px 0px 10px;
+  font-size: 1.25rem;
+
+}
